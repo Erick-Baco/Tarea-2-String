@@ -13,9 +13,9 @@ public class Main
         String profesion = parts [1];
         String country = parts [2];
 
-        System.out.println("Nombre: " + name);
-        System.out.println("Profesión: " + profesion);
-        System.out.println("País: " + country);
+        System.out.println("Nombre: " + name.toUpperCase ());
+        System.out.println("Profesión: " + profesion.toUpperCase ());
+        System.out.println("País: " + country.toUpperCase ());
 
     }
 }
